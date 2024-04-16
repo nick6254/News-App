@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="feedStyle.css">
+</head>
+<body>
+<div class="feed-heading">
+    <h3>We appreciate your feedback. Please fill the form given below.</h3>
+</div>
+    <div class="box">
+        <form action="https://formspree.io/f/mpzvowqe" method="post">
+            <div class="box1">
+                <fieldset class="info">
+                    <legend>Feedback</legend>
+                    <label for="cars" class="boxes">How was our website: </label>
+                    <select id="cars" id="cars">
+                        <option value="Best" >Best</option>
+                        <option value="Good">Good</option>
+                        <option value="Not Good">Not Good</option>
+                        
+                    </select>
+                    
+                    <br>
+                    <br>
+                    <label for="Rating" class="boxes">How much Rating you wanna give out of 5: </label>
+                    <input type="number" id="Rating"  name="Rating" autocomplete="off" min="0" max="5">
+                    
+                    <br>
+                    <br>
+                    <label for="message" class="boxes">Any additional Comment you want to suggest:</label>
+                    <textarea name="message" id="message" rows="1" cols="10"></textarea>
+                </fieldset>
+            </div>
+            <div class="box2">
+                <fieldset class="info">
+                    <legend>Personal Info</legend>
+                    Your name
+                    
+                    <input class="boxes" type="text"  id="personal" name="text" autocomplete="off">
+                    <br>
+                    <br>
+                    Your email
+                    
+                    <input class="boxes" type="email"  id="personal" name="email" autocomplete="off">
+                </fieldset>  
+            </div>
+            <div class="box3">
+                <fieldset class="info">
+                    <legend class="boxes">Contact Us</legend>
+                    <a href="mailto:nikhilmalhotra0996@gmail.com">nikhilmalhotra0996@gmail.com</a>
+                    
+                </fieldset>
+            </div>
+            <div class="box4">
+                <input class="box5" type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
